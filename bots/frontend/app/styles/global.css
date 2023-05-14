@@ -1,0 +1,36 @@
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #707070 #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0c0d0f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #707070;
+  border-radius: 10px;
+  border: 3px groove #1a1a1a;
+}
+
+/* ===== Custom Fonts ===== */
+@font-face {
+  font-family: "Ultra";
+  src: url("/assets/fonts/ultra/Ultra.otf") format("opentype");
+}
+@font-face {
+  font-family: "pricedown";
+  src: url("/assets/fonts/pricedown/pricedown.otf") format("opentype");
+}
+@font-face {
+  font-family: "Balancegroovy";
+  src: url("/assets/fonts/balancegroovy/Balancegroovyregular.otf")
+    format("opentype");
+}

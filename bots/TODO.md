@@ -1,0 +1,4 @@
+- Make entering auth token more easy, and removing any tokens too
+- Add Web UI using TailwindCSS, Remix including Golang backend using gofiber
+- Extend session awareness to track if the bot is actually still in the lobby (to block mod kicks), also check if the `dc` command was used to check if the disconnect wasn't caused by the user
+- Add vote kick detection
