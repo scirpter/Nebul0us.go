@@ -1,5 +1,4 @@
 # Nebul0us.go
-Completely external, networked Nebulous.io cheat made from reverse engineering their UDP networking code.
 
 <br />
 
